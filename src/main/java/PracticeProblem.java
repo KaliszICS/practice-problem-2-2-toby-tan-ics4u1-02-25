@@ -14,7 +14,6 @@ public class PracticeProblem {
     public static int[] compareStringSearch(String[] array, String word) {
         int[] result = new int[2];
         
-
         result[0] = sequentialSearch(array, word);
         
         result[1] = binarySearch(array, word);
